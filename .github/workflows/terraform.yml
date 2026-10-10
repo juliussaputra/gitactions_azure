@@ -21,7 +21,6 @@ env:
 jobs:
   plan:
     runs-on: ubuntu-latest
-    environment: azure-lab
     steps:
       - uses: actions/checkout@v4
       - uses: hashicorp/setup-terraform@v3
