@@ -5,8 +5,8 @@ resource "azurerm_resource_group" "testlab" {
 
 resource "azurerm_storage_account" "example" {
   name                            = "juliustestlab002131"
-  resource_group_name             = azurerm_resource_group.lab.name
-  location                        = azurerm_resource_group.lab.location
+  resource_group_name             = azurerm_resource_group.testlab.name
+  location                        = azurerm_resource_group.testlab.location
   account_tier                    = "Standard"
   account_replication_type        = "LRS"
   min_tls_version                 = "TLS1_2"
