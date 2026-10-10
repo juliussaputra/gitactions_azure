@@ -1,14 +1,14 @@
 variable "location" {
-  type = string
+  type    = string
   default = "germanywestcentral"
 }
 
 variable "rgname" {
-  type= string
+  type    = string
   default = "rg-lab-gwc-001"
 }
 
 variable "storage_name" {
-  type= string
+  type    = string
   default = "juliustestlab002131"
 }
