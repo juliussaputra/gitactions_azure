@@ -1,2 +1,2 @@
 # gitactions_azure
-iac with terraform CI/CD
+IaC with terraform CI/CD
