@@ -1,0 +1,30 @@
+# Terraform working files
+.terraform/
+crash.log
+crash.*.log
+
+# State: never commit
+*.tfstate
+*.tfstate.*
+
+# Plan files (can contain secrets)
+tfplan
+*.tfplan
+
+# Local overrides and CLI config
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
